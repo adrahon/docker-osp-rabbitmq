@@ -1,0 +1,6 @@
+#!/bin/bash
+
+# fail immediately
+set -o errexit
+
+rabbitmq-server
